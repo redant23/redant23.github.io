@@ -1,0 +1,27 @@
+# Site settings
+title:          Redant
+description:    "불개미의 개발 블로그"
+baseurl:        "/redant23"
+url:            "https://redant23.github.io"
+
+# Author
+author:
+  name:         Kim Dongjun
+  url:          https://fb.com/redant23
+  email:        kimdongjun23@gmail.com
+
+# Build settings
+markdown:       kramdown
+
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        compressed
+
+# Gems
+plugins:
+  - jekyll-paginate
+
+# Permalinks
+permalink:      /:year-:month-:day/:title
+paginate:       5
