@@ -9,8 +9,8 @@ exclude:
   - "/vendor/"
 
 # Site settings
-title: Redant
-subtitle: "A simple yet classy theme for your Jekyll website or blog"
+title: 불개미의 자바스크립트 일기
+subtitle: "자바스크립트를 배우면서 매일매일 기록하는 블로그입니다."
 email: kimdongjun23@gmail.com
 name: Kim Dongjun
 description: >
