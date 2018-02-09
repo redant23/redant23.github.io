@@ -1,7 +1,7 @@
 # Site settings
 title:          Redant
 description:    불개미의 개발 블로그
-baseurl:        "/redant23"
+baseurl:        "https://redant23.github.io"
 url:            "https://redant23.github.io"
 
 # Author
