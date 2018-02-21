@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "180214 자바스크립트 일기"
+date:   2018-02-14 23:59:59
+author: redant
+categories: javascript
+---
+
+Event Handler -- 이벤트가 발생했을 때, 실행하는 작업
+
+event.target -- 최초로 이벤트가 발생한 엘리먼트
+
+event.currentTarget -- 발생한 이벤트가 등록되어있는 엘리먼트
+
+매개변수.preventDefault(); -- 기본동작을 방지하는 함수 (ex. 체크박스 체크 같은 기본동작 작동안하게 할 수 있음 )
+
+event.stopPropagation -- 해당 이벤트의 흐름을 중지시키는 함수
+
+Event 흐름
+- Event Capturing : 위 -> 아래  // 세번째 argument - 'true' // 거의 쓸 일이 없음
+- Event Bubbling : 아래 -> 위 // 세번째 argument - 빈칸 or 'false' // 기본값
+
+
