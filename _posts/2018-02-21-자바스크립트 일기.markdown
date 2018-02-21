@@ -53,6 +53,7 @@ HTML CSS에 따라서 자바스크립트를 어떻게 활용하는지가 결정�
   2) 닷 노테이션
   3) 함수 메소드 - call, bind, apply 를 사용할 때
 
+```javascript
     // 함수 메소드 - call( 인자값 <- this ), bind( ), apply( 인자값 <- this )
     call과 apply 차이
     functionName.call(this값, 1,2,3,4,5...(arguments)인자들, 개수 제한이 없다 );
@@ -60,8 +61,9 @@ HTML CSS에 따라서 자바스크립트를 어떻게 활용하는지가 결정�
     functionName.bind(this값) -- this값으로 설정된 함수를 만들어줌.
     [ex]var bar = functionName.bind(this값, ( 매개변수, 함수에서 따로 설정도 가능 ))
     bar(); // this값이 설정되어 함수를 호출해줌
-
+```
   4) 함수 앞에 new를 써서 할 경우
+```
     this === {}, 빈 오브젝트 
     new 뒤의 경우에는 자동으로 return값이 this가 됨.(심지어 빈 오브젝트를 제외한 어떤 수를 리턴해도 무시됨.)
     함수안에 this.name = 'apple'로 설정 후 호출하면
@@ -74,7 +76,7 @@ HTML CSS에 따라서 자바스크립트를 어떻게 활용하는지가 결정�
     생성자 함수일 경우 함수이름 첫 글자를 대문자로 작성함.
     new String <- 이렇게 만들면 안됨(string이 오브젝트 화 됨.), 
     new Function , new object <-- 그냥 만드는 것과 동일함
-
+```
  2. Closure
 
 
