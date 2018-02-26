@@ -1,0 +1,28 @@
+---
+layout: post
+title:  "180224 자바스크립트 일기"
+date:   2018-02-24 23:59:59
+author: redant
+categories: javascript
+---
+
+# 할 일 
+
+
+1. Javascript-Basics-2 마무리 도전하기 1시간 목표 //
+
+
+2. 선택과제 utils part 1 끝내기 (map, pluck, reduce)
+
+
+3. 버블링 강의 다시 듣기 //
+
+
+4. 어코디언 버블링 이해할 수 있게 다시 제작 // *태그가 중요 부모와 자식 관계여야 함.*
+
+
+6. 타이머 문제 타임아웃으로 다시 풀 것.
+
+
+---
+
