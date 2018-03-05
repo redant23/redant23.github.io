@@ -1,0 +1,101 @@
+---
+layout: post
+title:  "180228 자바스크립트 일기"
+date:   2018-02-28 23:59:59
+author: redant
+categories: javascript
+---
+
+# 할 일 
+
+
+1. Javascript-Basics-2 마무리 도전하기 1시간 목표 // 어중간하게 완료. 다른 사람 풀이 확인해서 다시 풀어봄. 참신한 방법이 있었음.
+
+
+2. !utils reduce 메소드 다시한번 확인하고 풀어보고 part2 진행하기
+
+
+
+4. 버블링 강의 다시 듣기 //
+
+
+5. 어코디언 버블링 이해할 수 있게 다시 제작 // *태그가 중요 부모와 자식 관계여야 함.*
+
+
+6. 새 과제 하기
+
+---
+---
+
+수업.
+
+3세대 페이지
+3/12 수업 1차 종료
+
+if, for, 함수선언식에는 세미콜론 찍지 않음
+
+findDuplicates 문제 쉽게 푸는 방법
+'오브젝트를 활용해서 해결'
+
+setTimeout 문제 해설 ( closure를 이해하고 있는 지 판별하기 위한 대중적인 문제, 중요한 기초문제!)
+
+남의 코드 많이 봐라(협업할 때 도움이 많이 됨)
+
+InterviewCake -- 알고리즘 문제 매주 1문제씩 메일로 날려줌(구글,드롭박스,아마존 등등)
+
+
+---
+
+#AJAX (Asynchronous Javascript And Xml)
+
+프로그래밍 언어 혹은 도구가 아니라 개념적인 것. 
+
+새로고칠 필요없이 서버와 통신하는 방법.
+
+사용되는 것들. 
+
+1. HTML
+2. DOM
+3. Javascript
+4. XMLHttpRequest
+
+Request Methods
+1. get --- 얻을 때
+2. post --- 만들 때 (request 바디 필요)
+3. put --- 수정할 때 (request 바디 필요)
+4. delete --- 지울 때
+
+Response Code
+1. 1XX --- 별로 안중요함
+2. 2XX --- 성공적일 때
+3. 3XX --- 다른 길로 안내(redirect)
+4. 4XX --- 요청을 잘 못했을 때
+5. 5XX --- 서버가 문제 생겼을 때
+
+#JSON (Javascript Object Notation)
+
+자바스크립트 형식을 빌린 작성법
+
+undefined 빼고는 다 작성되는데 특이한 점은
+
+키 값에도 "" 를 꼭 넣어줘야 됨.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```javascript
+  
+
+```
