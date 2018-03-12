@@ -58,5 +58,61 @@ categories: javascript
 
   - 
 
-4. 
-  
+4. branch
+
+  - 하나의 버전을 만든다는 개념
+
+  - 모든 commit들은 branch 내에 존재한다.
+
+  - 하나의 프로젝트 안에 다양한 branch가 있을 수 있다.
+
+  - 항상 메인 branch는 "master" Branch 이다.
+
+5. HEAD
+
+  - 현재 Branch의 가장 마지막 Commit(보통은)
+
+6. Master
+
+  - 모든 프로젝트의 가장 중심이 되는 Branch 이름
+
+7. commit 만들기
+
+  - commit 할 파일들은 "스테이지"에 올려야 한다. 
+
+  - `git add` 라는 명령어로 올린다. 
+
+  - git add . <- 여기서 .은 현재 디렉토리 내의 모든 수정사항을 스테이지에 추가하는 명령어
+
+  - git add src/ 현재 디렉토리 내의 src 디렉토리의 모든 수정사항을 스테이지에 추가.
+
+  - eg. `git add index.html` 
+
+  - git commit -m "blah blah" 
+
+8. github
+
+  - git들의 Hub
+
+  - Git Repository 호스팅 서비스 업체
+
+  - 협업을 가능케 해주는 곳
+
+  - 
+
+9. GUI
+
+  - 많이 있는데 Ken님은 Sourcetree 사용
+
+  - 보통 터미널로 작업이 익숙해진 다음 이용하는 것이 좋고 터미널로 작업하기 애매한 경우에만 쓰는 것이 좋음
+
+
+---
+
+터미널 명령어는 다음 시간에 
+
+**url:http://eloquentjavascript.net/  => 자바스크립트에 대한 유명한 책인데 전자책으로 소스도 직접 테스트할 수 있고 검색도 가능함. 영어만 읽을 수 있다면 이걸로 배우면 좋음.**
+
+
+
+
