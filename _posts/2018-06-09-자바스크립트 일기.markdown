@@ -1,0 +1,27 @@
+---
+layout: post
+title:  "180609 자바스크립트 일기"
+date:   2018-06-09 23:59:59
+author: redant
+categories: javascript
+---
+
+# 할 일 
+
+0. 문제풀이 // O(logN)으로 어떤 수를 기준으로 나눠져있는 배열 에 값 찾기
+http://jsbin.com/miqukilace/1/edit?js,console
+
+
+
+1. 수업듣기 Redux & Flux
+---
+ .
+
+
+---
+
+## 오늘 수업 Redux Basic
+
+
+
+

@@ -1,0 +1,28 @@
+---
+layout: post
+title:  "180601 자바스크립트 일기"
+date:   2018-06-01 23:59:59
+author: redant
+categories: javascript
+---
+
+# 할 일 
+
+0. 문제풀이 // lodash의 partial 함수 구현하기.
+http://jsbin.com/yuxiregomi/edit?js,console
+10 ~ 15분 정도 걸려서 풀었다. partail과 curry에 대해서 시간나면 한번 알아보자.
+
+PWA = Progressive Web Apps
+한번 접속하면 인터넷 없이 사용할 수 있게 해주는 서비스
+활용한 사이트 (https://www.pokedex.org/) 참고 (https://pwa.rocks/)
+
+
+1. 수업듣기  
+---
+
+---
+
+## 오늘 수업 React - Router
+
+
+

@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "180615 자바스크립트 일기"
+date:   2018-06-15 23:59:59
+author: redant
+categories: javascript
+---
+
+# 할 일 
+
+0. 문제풀이 
+  
+
+1. 수업듣기 Node
+---
+
+## 오늘 수업 Node
+  
+
+
+
+

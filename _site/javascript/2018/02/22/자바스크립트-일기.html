@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>180221 자바스크립트 일기</title>
+  <meta name="description" content="어제에 이어서 계속 과제를 진행하려고 한다. 이제는 시간제한을 걸고 ㅎㅎ">
+  
+  <meta name="author" content="Kim Dongjun">
+  <meta name="copyright" content="&copy; Kim Dongjun 2018">
+  
+
+  <!-- External libraries -->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/monokai-sublime.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css">
+
+  <!-- Favicon and other icons (made with http://www.favicon-generator.org/) -->
+  <link rel="shortcut icon" href="/assets/icons/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/assets/icons/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/icons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/assets/icons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/icons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/icons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/assets/icons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/assets/icons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/assets/icons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/assets/icons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/assets/icons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
+  <link rel="manifest" href="/assets/icons/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/assets/icons/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  
+  <!-- Facebook OGP cards -->
+  <meta property="og:description" content="어제에 이어서 계속 과제를 진행하려고 한다. 이제는 시간제한을 걸고 ㅎㅎ" />
+  <meta property="og:url" content="http://redant23.github.io" />
+  <meta property="og:site_name" content="불개미의 자바스크립트 일기" />
+  <meta property="og:title" content="180221 자바스크립트 일기" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="http://redant23.github.io/assets/logo.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="612" />
+  <meta property="og:image:height" content="605" />
+  
+
+  
+  <!-- Twitter: card tags -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="180221 자바스크립트 일기">
+  <meta name="twitter:description" content="어제에 이어서 계속 과제를 진행하려고 한다. 이제는 시간제한을 걸고 ㅎㅎ">
+  <meta name="twitter:image" content="http://redant23.github.io/assets/logo.png">
+  <meta name="twitter:url" content="http://redant23.github.io">
+  
+
+  
+
+  <!-- Site styles -->
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://redant23.github.io/javascript/2018/02/22/%E1%84%8C%E1%85%A1%E1%84%87%E1%85%A1%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%B8%E1%84%90%E1%85%B3-%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%80%E1%85%B5.html">
+  <link rel="alternate" type="application/rss+xml" title="불개미의 자바스크립트 일기" href="http://redant23.github.io/feed.xml" />
+</head>
+
+
+  <body>
+
+    <header class="navigation" role="banner">
+  <div class="navigation-wrapper">
+    <a href="/" class="logo">
+      
+      <img src="/assets/logo.png" alt="불개미의 자바스크립트 일기">
+      
+    </a>
+    <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <nav role="navigation">
+      <ul id="js-navigation-menu" class="navigation-menu show">
+        
+          
+          <li class="nav-link"><a href="/about/">About</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+          <li class="nav-link"><a href="/posts/">Posts</a>
+          
+        
+          
+          <li class="nav-link"><a href="/typography/">Typography</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+    <div class="page-content">
+        <div class="post">
+
+<div class="post-header-container " >
+  <div class="scrim ">
+    <header class="post-header">
+      <h1 class="title">180221 자바스크립트 일기</h1>
+      <p class="info">by <strong>redant</strong></p>
+    </header>
+  </div>
+</div>
+
+<div class="wrapper">
+
+ <span class="page-divider">
+  <span class="one"></span>
+  <span class="two"></span>
+</span>
+ 
+
+<section class="post-meta">
+  <div class="post-date">February 22, 2018</div>
+  <div class="post-categories">
+  in 
+    
+    <a href="/category/javascript">Javascript</a>
+    
+  
+  </div>
+</section>
+
+<article class="post-content">
+  <p>어제에 이어서 계속 과제를 진행하려고 한다. 이제는 시간제한을 걸고 ㅎㅎ</p>
+
+<p>Javascript-Basics-2 과제풀기</p>
+
+<ol>
+  <li>string 산술함수 (stringCalculator)</li>
+</ol>
+
+<p>더하기 / 13시 35분 시작  / 14시 09분 완료</p>
+
+<p>빼기 / 14시 12분 시작 / 14시 26분 중단 /14시 38분 시작 / 14시 53분 완료</p>
+
+<p>곱하기 / 14시 55분 시작 / 15시 01분 완료</p>
+
+<p>나누기 / 15시 02분 시작 / 15시 04분 완료</p>
+
+<p>통합계산 / 15시 05분 시작 / 16시 10분 완료되긴 했으나 eval 이라는 치트키를 사용했으므로 나중에 다시 한번 다른</p>
+
+<p>방법으로 풀어보려고 한다. 아마 켄님이 eval을 사용하지 말라고 말하는 걸 깜빡하신 듯..</p>
+
+<p>eval(jsString) - 이 함수는 문자열(jsString)이 자바스크립트에서 실행한 코드인지를 확인하고 가능할 경우 실행해서</p>
+
+<p>반환해주는 함수인데, jsbin에서 harmful(해로운)한 함수라고 하고 mozilla에서도 필요없을 땐 사용하지 말라고 한다.</p>
+
+<p>이유는 자세히는 모르겠지만 다른 함수에 문제를 일으키는 경우가 있어서 라고 한다. 어떤 경우에 어떤 문제를 일으키는 지</p>
+
+<p>궁금하다. <em>나중에 켄님께 질문해보자.</em> 역시나 안된다고 하심. 보안상 취약점이 있다고 함. 외국에선 ‘eval is</p>
+
+<p>evel’이라고도 한다고 하심.</p>
+
+<ol>
+  <li>timer</li>
+</ol>
+
+<p>16시 12분 시작 / 16시 44분 중단 / 운동갔다와야지 / 19:00 시작 / 19:27 완료</p>
+
+<p>setTimeout()을 setInterval()로 바꾸고 안에 if문으로 제약을 넣어 반복 중단 함수를 만들었다. 함수를 바로 호출하기</p>
+
+<p>위해 즉시실행함수로 만들었다.</p>
+
+<hr />
+
+<p>#자바스크립트 수업</p>
+
+<p>remoteok.io // 리모트 일거리 찾아주는 사이트,, core hour(remote 작업자들이 공통으로 함께 일하는 시간)</p>
+
+<p>현실적으로는 힘든 부분들이 많음(게으름, 소통의 부재 등)</p>
+
+<p>개발할 때 여러 스텝 한 번에 나가려고 하지말고 한 스텝씩 차근차근 하면 된다.</p>
+
+<p>그래야 성취감도 느끼고 좌절하지 않음.</p>
+
+<p>진정한 개발은 함께 일하는 것이기 때문에 본인의 만족(자기기준)에 빠지지 말고</p>
+
+<p>딱 필요한 만큼만 하는게 가장 인정받음.</p>
+
+<p>HTML CSS에 따라서 자바스크립트를 어떻게 활용하는지가 결정됨</p>
+
+<p>비율은 상황마다 다른데 자기 스타일에 맞게 적절하게 하면 됨.</p>
+
+<p>기능 완료하면 되지 지금 당장은 효율 따지지 말 것.</p>
+
+<hr />
+
+<p>본 수업</p>
+
+<ol>
+  <li>this 마무리</li>
+</ol>
+
+<p>1) 일반함수</p>
+
+<p>2) 닷 노테이션</p>
+
+<p>3) 함수 메소드 - call, bind, apply 를 사용할 때</p>
+
+<div class="language-javascript highlighter-rouge"><pre class="highlight"><code>    <span class="c1">// 함수 메소드 - call( 인자값 &lt;- this ), bind( ), apply( 인자값 &lt;- this )</span>
+    <span class="nx">call</span><span class="err">과</span> <span class="nx">apply</span> <span class="err">차이</span>
+    <span class="nx">functionName</span><span class="p">.</span><span class="nx">call</span><span class="p">(</span><span class="k">this</span><span class="err">값</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">...(</span><span class="nx">arguments</span><span class="p">)</span><span class="err">인자들</span><span class="p">,</span> <span class="err">개수</span> <span class="err">제한이</span> <span class="err">없다</span> <span class="p">);</span>
+    <span class="nx">functionName</span><span class="p">.</span><span class="nx">apply</span><span class="p">(</span><span class="k">this</span><span class="err">값</span><span class="p">,</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">...](</span><span class="err">배열</span> <span class="err">안</span> <span class="err">요소들이</span> <span class="nx">arguments</span> <span class="err">매개변수들</span><span class="p">)</span> <span class="err">인자값이</span> <span class="k">this</span><span class="err">와</span> <span class="err">배열</span>   <span class="err">딱</span> <span class="mi">2</span><span class="err">개로</span> <span class="err">제한됨</span><span class="p">);</span>
+    <span class="nx">functionName</span><span class="p">.</span><span class="nx">bind</span><span class="p">(</span><span class="k">this</span><span class="err">값</span><span class="p">)</span> <span class="o">--</span> <span class="k">this</span><span class="err">값으로</span> <span class="err">설정된</span> <span class="err">함수를</span> <span class="err">만들어줌</span><span class="p">.</span>
+    <span class="p">[</span><span class="nx">ex</span><span class="p">]</span><span class="kd">var</span> <span class="nx">bar</span> <span class="o">=</span> <span class="nx">functionName</span><span class="p">.</span><span class="nx">bind</span><span class="p">(</span><span class="k">this</span><span class="err">값</span><span class="p">,</span> <span class="p">(</span> <span class="err">매개변수</span><span class="p">,</span> <span class="err">함수에서</span> <span class="err">따로</span> <span class="err">설정도</span> <span class="err">가능</span> <span class="p">))</span>
+    <span class="nx">bar</span><span class="p">();</span> <span class="c1">// this값이 설정되어 함수를 호출해줌</span>
+</code></pre>
+</div>
+<p>4) 함수 앞에 new를 써서 할 경우</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>    this === {}, 빈 오브젝트 
+    new 뒤의 경우에는 자동으로 return값이 this가 됨.(심지어 빈 오브젝트를 제외한 어떤 수를 리턴해도 무시됨.)
+    함수안에 this.name = 'apple'로 설정 후 호출하면
+    name = 'apple' 이 담긴 오브젝트를 리턴함
+    this.name
+    this.age
+    this.sex
+    var ken = new Person('ken huh', 35, 'm');
+    var ken = new Person('wan huh', 31, 'm');
+    생성자 함수일 경우 함수이름 첫 글자를 대문자로 작성함.
+    new String &lt;- 이렇게 만들면 안됨(string이 오브젝트 화 됨.), 
+    new Function , new object &lt;-- 그냥 만드는 것과 동일함
+</code></pre>
+</div>
+
+<ol>
+  <li>Closure</li>
+</ol>
+
+<p>내부에 있는 개체를 전역에서 실행할 경우에도 변수정보를 기억할 수 있게 되는 능력, 혹은 성격.</p>
+
+<p>내부 함수는 실행될 때 외부 변수의 값을 기억하고 있다.</p>
+
+<ol>
+  <li>Prototype 조금</li>
+</ol>
+
+<p>Constructor = new 키워드와 함께 쓰는 함수. 함수이름 첫 글자를 보통 대문자로 표기합니다.</p>
+
+<p>모든 자바스크립트 객체는 생성자 함수를 이용해 만들어진다.</p>
+
+<p>객체는 key/value 를 가질 수 있다.(속성/값)</p>
+
+<p>생성자 함수를 만들 수 있다,</p>
+
+<p>noop = 빈 함수를 나타내는 단어</p>
+
+<p>실무에서는 프로토타입을 임의로 수정하거나 새로운 프로토타입을 만들어 사용하지 않는다.</p>
+
+<p>prototype.chain &lt;- instance, constructor, prototype 의 속성이 돌고 도는 것?? 아직 완벽히 이해되진 않고 느낌만 알겠다.</p>
+
+<hr />
+
+<p>다시 과제 Javascript Basics 2</p>
+
+<ol>
+  <li>String 산술함수 통합계산</li>
+</ol>
+
+<p>22:10분 시작 / 텅 비었을 경우와 한 개만 값이 들어왔을 때 해결 / 22:54 중단 / 22:58 재개 / 23:40 중단 / 01:00 재개 / 01:20 완료</p>
+
+<p>총 106분 걸림, 엄청나게 뿌듯하다.</p>
+
+<p>오늘은 여기까지 하자. 디자인 프로토타입 제작도 해야됨..ㅎㅎ</p>
+
+
+</article>
+
+
+
+
+
+<section class="rss">
+  <p class="rss-subscribe text"><strong>Subscribe <a href="/feed.xml">via RSS</a></strong></p>
+</section>
+
+<section class="share">
+  <span>Share: </span>
+  
+    
+    
+    
+      <a href="//www.facebook.com/sharer.php?t=180221+%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8+%EC%9D%BC%EA%B8%B0&u=http%3A%2F%2Fredant23.github.io%2Fjavascript%2F2018%2F02%2F22%2F%25E1%2584%258C%25E1%2585%25A1%25E1%2584%2587%25E1%2585%25A1%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25B8%25E1%2584%2590%25E1%2585%25B3-%25E1%2584%258B%25E1%2585%25B5%25E1%2586%25AF%25E1%2584%2580%25E1%2585%25B5.html"
+        onclick="window.open(this.href, 'facebook-share', 'width=550,height=255');return false;">
+        <i class="fa fa-facebook-square fa-lg"></i>
+      </a>
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+      <a href="//www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Fredant23.github.io%2Fjavascript%2F2018%2F02%2F22%2F%25E1%2584%258C%25E1%2585%25A1%25E1%2584%2587%25E1%2585%25A1%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25B8%25E1%2584%2590%25E1%2585%25B3-%25E1%2584%258B%25E1%2585%25B5%25E1%2586%25AF%25E1%2584%2580%25E1%2585%25B5.html"
+        onclick="window.open(this.href, 'linkedin-share', 'width=550,height=255');return false;">
+        <i class="fa fa-linkedin-square fa-lg"></i>
+      </a>
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+</section>
+
+
+
+
+</div>
+</div>
+
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h3 class="footer-heading">불개미의 자바스크립트 일기</h3>
+
+    <div class="site-navigation">
+
+      <p><strong>Site Map</strong></p>
+      <ul class="pages">
+        
+        
+          <li class="nav-link"><a href="/about/">About</a>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+          <li class="nav-link"><a href="/posts/">Posts</a>
+        
+        
+        
+          <li class="nav-link"><a href="/typography/">Typography</a>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      </ul>
+    </div>
+
+    <div class="site-contact">
+
+      <p><strong>Contact</strong></p>
+      <ul class="social-media-list">
+        <li>
+          <a href="mailto:kimdongjun23@gmail.com">
+            <i class="fa fa-envelope-o"></i>
+            <span class="username">kimdongjun23@gmail.com</span>
+          </a>
+        </li>
+
+        
+          
+          <li>
+            <a href="fb.com/redant23" title="Friend me on Facebook">
+              <i class="fa fa-facebook"></i>
+              <span class="username">Kim Dongjun</span>
+            </a>
+          </li>
+          
+        
+          
+          <li>
+            <a href="https://github.com/redant23" title="Fork me on GitHub">
+              <i class="fa fa-github"></i>
+              <span class="username">Kim Dongjun</span>
+            </a>
+          </li>
+          
+        
+          
+          <li>
+            <a href="https://www.linkedin.com/in/redant23" title="Connect with me on LinkedIn">
+              <i class="fa fa-linkedin"></i>
+              <span class="username">Kim Dongjun</span>
+            </a>
+          </li>
+          
+        
+          
+        
+          
+        
+
+      </ul>
+    </div>
+
+    <div class="site-signature">
+      <p class="rss-subscribe text"><strong>Subscribe <a href="/feed.xml">via RSS</a></strong></p>
+      <p class="text">A simple yet classy theme for your Jekyll website or blog.
+</p>
+    </div>
+
+  </div>
+
+</footer>
+
+<!-- Scripts -->
+<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.5/highlight.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+  // Default syntax highlighting
+  hljs.initHighlightingOnLoad();
+
+  // Header
+  var menuToggle = $('#js-mobile-menu').unbind();
+  $('#js-navigation-menu').removeClass("show");
+  menuToggle.on('click', function(e) {
+    e.preventDefault();
+    $('#js-navigation-menu').slideToggle(function(){
+      if($('#js-navigation-menu').is(':hidden')) {
+        $('#js-navigation-menu').removeAttr('style');
+      }
+    });
+  });
+});
+
+</script>
+
+
+
+
+
+
+  </body>
+
+</html>

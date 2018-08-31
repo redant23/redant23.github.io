@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>불개미의 자바스크립트 일기</title>
+    <description>A simple yet classy theme for your Jekyll website or blog.
+</description>
+    <link>http://redant23.github.io/</link>
+    <atom:link href="http://redant23.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 24 Apr 2018 15:48:19 +0900</pubDate>
+    <lastBuildDate>Tue, 24 Apr 2018 15:48:19 +0900</lastBuildDate>
+    <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>180423 자바스크립트 일기</title>
+        <description>&lt;h1 id=&quot;section&quot;&gt;할 일&lt;/h1&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;v6-router // 완료&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;수업듣기&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;오늘의 문제! UI도 알고리즘도 아닌 자바스크립트 문제. 못품…ㅠ
+http://jsbin.com/noditahono/2/edit?js,console&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;같은 실수를 반복하지 말자
+책읽듯이 쉽게 읽혀야 좋은 코드&lt;/p&gt;
+
+&lt;h2 id=&quot;asynchoronous-programming-1&quot;&gt;오늘 수업 - Asynchoronous Programming 1&lt;/h2&gt;
+
+&lt;p&gt;비동기 프로그래밍을 가능하게 해주는 요소들&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Event Loop&lt;/li&gt;
+  &lt;li&gt;Higher Order Function&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;다른 함수를 인자로 받아 이용.&lt;/p&gt;
+
+&lt;p&gt;함수를 리턴해주는 형식.&lt;/p&gt;
+
+&lt;p&gt;이런 것이 가능한 이유는 함수란 First Class Object이기 때문.&lt;/p&gt;
+
+&lt;p&gt;Continuation Passing Style  A.k.a Callback Hell&lt;/p&gt;
+
+&lt;p&gt;함수안에 함수가 계속되는 스타일&lt;/p&gt;
+
+&lt;p&gt;이런 스타일을 피해줘야 함.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+</description>
+        <pubDate>Tue, 24 Apr 2018 08:59:59 +0900</pubDate>
+        <link>http://redant23.github.io/javascript/2018/04/24/%E1%84%8C%E1%85%A1%E1%84%87%E1%85%A1%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%B8%E1%84%90%E1%85%B3-%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%80%E1%85%B5.html</link>
+        <guid isPermaLink="true">http://redant23.github.io/javascript/2018/04/24/%E1%84%8C%E1%85%A1%E1%84%87%E1%85%A1%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%B8%E1%84%90%E1%85%B3-%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%80%E1%85%B5.html</guid>
+        
+        
+        <category>javascript</category>
+        
+      </item>
+    
+      <item>
+        <title>180417 자바스크립트 일기</title>
+        <description>&lt;h1 id=&quot;section&quot;&gt;할 일&lt;/h1&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;vanilla-utils 끝내기 // 완료&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;v6-router // 완료&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;수업듣기&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;오늘의 문제! 알고리즘 문제 - 오름차순 배열 2개를 한 개의 오름차순 배열로 만들기.&lt;/p&gt;
+
+&lt;p&gt;while 문으로 하면 시간복잡도 작은 배열의 n만큼 걸리게 할 수 있음
+http://jsbin.com/kecihikufe/1/edit?js,console&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;advanced-git&quot;&gt;오늘 수업 - Advanced Git&lt;/h2&gt;
+
+</description>
+        <pubDate>Wed, 18 Apr 2018 08:59:59 +0900</pubDate>
+        <link>http://redant23.github.io/javascript/2018/04/18/%E1%84%8C%E1%85%A1%E1%84%87%E1%85%A1%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%B8%E1%84%90%E1%85%B3-%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%80%E1%85%B5.html</link>
+        <guid isPermaLink="true">http://redant23.github.io/javascript/2018/04/18/%E1%84%8C%E1%85%A1%E1%84%87%E1%85%A1%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%B8%E1%84%90%E1%85%B3-%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%80%E1%85%B5.html</guid>
+        
+        
+        <category>javascript</category>
+        
+      </item>
+    
+      <item>
+        <title>180416 자바스크립트 일기</title>
+        <description>&lt;h1 id=&quot;section&quot;&gt;할 일&lt;/h1&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;vanilla-utils 끝내기 // delay 남음.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;수업듣기&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;오늘의 문제! 알고리즘 문제 - convertString 
+&lt;code class=&quot;highlighter-rouge&quot;&gt;ex) var a = convertString('aaabccdddd'); // =&amp;gt; 'a3b1c2d4'&lt;/code&gt;
+http://jsbin.com/xutafarexi/1/edit?js,console
+조건에 &lt;code class=&quot;highlighter-rouge&quot;&gt;i + 1 !== undefined&lt;/code&gt; 말고 더 엘레강스하게 적는 법 알아보기&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;client-side-routing&quot;&gt;오늘 수업 - Client Side Routing&lt;/h2&gt;
+
+&lt;p&gt;windows.history&lt;/p&gt;
+
+&lt;p&gt;history.back();&lt;/p&gt;
+
+&lt;p&gt;history.forward();&lt;/p&gt;
+
+&lt;p&gt;history.go(1 or -1);&lt;/p&gt;
+
+&lt;p&gt;history.pushstate(“”)&lt;/p&gt;
+
+&lt;p&gt;hash&lt;/p&gt;
+
+&lt;p&gt;${}  -  template literals (ES6에서 생긴 기능)&lt;/p&gt;
+
+&lt;p&gt;v6. 바뀐 거 pull 받기 (통합) 복습 영상 마지막 참고 (‘rebase 활용’)&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 17 Apr 2018 08:59:59 +0900</pubDate>
+        <link>http://redant23.github.io/javascript/2018/04/17/%E1%84%8C%E1%85%A1%E1%84%87%E1%85%A1%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%B8%E1%84%90%E1%85%B3-%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%80%E1%85%B5.html</link>
+        <guid isPermaLink="true">http://redant23.github.io/javascript/2018/04/17/%E1%84%8C%E1%85%A1%E1%84%87%E1%85%A1%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%B8%E1%84%90%E1%85%B3-%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%80%E1%85%B5.html</guid>
+        
+        
+        <category>javascript</category>
+        
+      </item>
+    
+      <item>
+        <title>180413 자바스크립트 일기</title>
+        <description>&lt;h1 id=&quot;section&quot;&gt;할 일&lt;/h1&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Chat Simulator 과제 공개하심.(최종과제)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;asyncUtils 과제도 공개하심.(최종과제)&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;오늘의 문제! 알고리즘 문제 - 문자열 내 알파벳 포함개수 배열로 리턴하기
+http://jsbin.com/tocidofefa/1/edit?js,console&lt;/p&gt;
+
+&lt;p&gt;일반적으로 풀었음. for문을 2번(2n) 돌게 풀었는데 배열의 인덱스값을 활용한다면 1번(n) 만에 풀 수 있음. &lt;em&gt;켄님이 보여주심&lt;/em&gt;
+문제를 풀 때 우선 문제해결을 했다면 시간복잡도와 공간복잡도를 최소화하는 것이 코드를 잘 쓰는 비결.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;debuggeging&quot;&gt;오늘 수업 - Debuggeging&lt;/h2&gt;
+
+&lt;p&gt;Debugger 넣고 왼쪽 화살표 누르면 또다시 디버거가 실행됨.&lt;/p&gt;
+
+&lt;p&gt;디버거 상태에서 드래그하면 그 값이 나옴.&lt;/p&gt;
+
+&lt;p&gt;debugging 능력이 생기면 개발실력을 키우는데 도움이 많이 됨.&lt;/p&gt;
+
+&lt;p&gt;누가 뭐라고 하고 호들갑 떨고 시간에 쫓기더라도 차분하게 디버깅할 수 있도록 멘탈이 강해야 함.&lt;/p&gt;
+
+&lt;p&gt;개발완료 시간은 항상 자기 생각보다 넉넉히. (일주일만에 할 수 있는 내용이면 2주일이라고 말하기)&lt;/p&gt;
+
+&lt;p&gt;디버깅 도구들과 주변 동료들을 도구로 활용&lt;/p&gt;
+
+&lt;p&gt;확실하게 이해하고 차근차근 넘어가는게 절대 시간이 단축됨.&lt;/p&gt;
+
+&lt;p&gt;읽기편한 코드를 쓰는 것이 훗날 디버깅하는 나에게 가장 도움이 됨.&lt;/p&gt;
+
+&lt;p&gt;console.log를 쓰는 경우 — 값만 확인하면 되는 경우&lt;/p&gt;
+
+&lt;p&gt;debugger를 쓰는 경우 — 내가 생각한대로 안돌아가는 경우, 조건을 확인하고 싶은 경우&lt;/p&gt;
+
+&lt;p&gt;debugger 중에 콘솔창을 켰다 껐다 하려면 esc를 누르면 됨.&lt;/p&gt;
+
+&lt;p&gt;화살표 밑으로 가고 위로 가는 경우 함수의 안으로 들어갔다가 밖으로 나가는 버튼.&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 14 Apr 2018 08:59:59 +0900</pubDate>
+        <link>http://redant23.github.io/javascript/2018/04/14/%E1%84%8C%E1%85%A1%E1%84%87%E1%85%A1%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%B8%E1%84%90%E1%85%B3-%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%80%E1%85%B5.html</link>
+        <guid isPermaLink="true">http://redant23.github.io/javascript/2018/04/14/%E1%84%8C%E1%85%A1%E1%84%87%E1%85%A1%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%B8%E1%84%90%E1%85%B3-%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%80%E1%85%B5.html</guid>
+        
+        
+        <category>javascript</category>
+        
+      </item>
+    
+      <item>
+        <title>180411 자바스크립트 일기</title>
+        <description>&lt;h1 id=&quot;section&quot;&gt;할 일&lt;/h1&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;v3-mvc, v4-mvc&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;오늘의 문제! 알고리즘 문제 - 중복되지 않은 문자열 발견 시 리턴하는 문제
+http://jsbin.com/tozazonaku/edit?js,console&lt;/p&gt;
+
+&lt;p&gt;얍삽이로 풀었음. 오브젝트에 true false 값 줘서 푸는게 정식 방법&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;design-patterns&quot;&gt;오늘 수업 - Design Patterns&lt;/h2&gt;
+
+&lt;p&gt;Design Pattern, 라이브러리, 프레임워크 등은 도구일 뿐이다.&lt;/p&gt;
+
+&lt;p&gt;경험을 통해 적재적소에 활용할 수 있는 방법을 익히게 될 것이다.&lt;/p&gt;
+
+&lt;p&gt;패턴&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Proven, 증명가능한&lt;/li&gt;
+  &lt;li&gt;Reusable, 재사용가능한&lt;/li&gt;
+  &lt;li&gt;Expressive,&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Object Creation Pattern - 객체생성패턴&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Modules – 각각의 독립적인 유닛&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;1-1. Object Literals – 가장 많이 쓰이는 모듈&lt;/p&gt;
+
+&lt;p&gt;1-2. Privacy Concerns – 보안을 신경쓴 모듈 ex. IIFI&lt;/p&gt;
+
+&lt;p&gt;1-3. Singletons – 한번만 실행가능하도록 하는 모듈&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Code Reuse Pattern&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;2-1. Behavior Delegation / Inheritance (어떤 기능을 상속받아 사용)&lt;/p&gt;
+
+&lt;p&gt;2-2. Mixin – 중복되는 어떤 기능을 공유하여 사용&lt;/p&gt;
+
+&lt;p&gt;2-b. Chaining – Jquery $.animate(blah).animate(blah).animate(blah)…&lt;/p&gt;
+
+&lt;p&gt;다음 시간은 디버깅 하는 요령에 대해 알려주심.&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 12 Apr 2018 08:59:59 +0900</pubDate>
+        <link>http://redant23.github.io/javascript/2018/04/12/%E1%84%8C%E1%85%A1%E1%84%87%E1%85%A1%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%B8%E1%84%90%E1%85%B3-%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%80%E1%85%B5.html</link>
+        <guid isPermaLink="true">http://redant23.github.io/javascript/2018/04/12/%E1%84%8C%E1%85%A1%E1%84%87%E1%85%A1%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%B8%E1%84%90%E1%85%B3-%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%80%E1%85%B5.html</guid>
+        
+        
+        <category>javascript</category>
+        
+      </item>
+    
+      <item>
+        <title>180409 자바스크립트 일기</title>
+        <description>&lt;h1 id=&quot;section&quot;&gt;할 일&lt;/h1&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;바닐라튜브 코드 브랜치 v1 훑어보기 // 1&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Vanilla Utils 끝내기 // 0&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;클로저, this, function 다시보기 // 0&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;계산기 사칙연산 넣기(우선 과정 생략) // 0&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;수업듣기 //&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;다른 사람이 쓴 코드는 한 사람이 쓴 것처럼 통일되도록 맞추기&lt;/p&gt;
+
+&lt;p&gt;깃은 깃을 쓰는 목적에 맞게 디렉토리 생성은 딱 1개만 받기&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;오늘의 문제! 알고리즘 문제가 아니었음. 피아노건반 문제(제한시간 25분. 실패.)
+http://jsbin.com/jakizolake/6/edit?css,js,output&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;MVC - Model View Controller (시작점)&lt;/p&gt;
+
+&lt;p&gt;Model - 자료와 관련된, 서버에게 받거나 클라이언트한테 받은, 자료실
+View - Dom 과 관련된, 시각디자인실
+Controller - 모델과 뷰와의 매개체, 사장실&lt;/p&gt;
+
+&lt;p&gt;MV* MVVM FLUX, Redux, etc.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Component&lt;/strong&gt; 엄청 중요 // 유행하고 있고 // 대다수 프레임워크에서 사용
+화면 UI를 기준으로 부분적으로 나눠서 쓸 수 있게 코드를 짜는 방식
+중복되는 내용들은 컴포넌트 만드는게 훨씬 좋다
+뷰의 하위개념. 핫함
+철저하게 구분지으면 View는 Dom 조작할 때, 똑같은 형태가 반복될 때 Component&lt;/p&gt;
+
+&lt;p&gt;Object.defineproperties 검색해서 이해해보고 사용해보기&lt;/p&gt;
+
+&lt;h3 id=&quot;section-1&quot;&gt;이번주 과제&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;v3, v4 완료하고 제출하기&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;git branch 사용법 익숙하게 계속 써보기&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Tue, 10 Apr 2018 08:59:59 +0900</pubDate>
+        <link>http://redant23.github.io/javascript/2018/04/10/%E1%84%8C%E1%85%A1%E1%84%87%E1%85%A1%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%B8%E1%84%90%E1%85%B3-%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%80%E1%85%B5.html</link>
+        <guid isPermaLink="true">http://redant23.github.io/javascript/2018/04/10/%E1%84%8C%E1%85%A1%E1%84%87%E1%85%A1%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%B8%E1%84%90%E1%85%B3-%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%80%E1%85%B5.html</guid>
+        
+        
+        <category>javascript</category>
+        
+      </item>
+    
+      <item>
+        <title>180404 자바스크립트 일기</title>
+        <description>&lt;h1 id=&quot;section&quot;&gt;할 일&lt;/h1&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;바닐라튜브 코드 브랜치 v1 훑어보기 // 1&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Vanilla Utils 끝내기 // 0&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;클로저, this, function 다시보기 // 0&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;계산기 사칙연산 넣기(우선 과정 생략) // 0&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;수업듣기 //&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;(this 관련 문제 풀면서 this 복습했음 )&lt;/p&gt;
+
+&lt;p&gt;OOP [Object Oriented Programming] 객체지향 프로그래밍&lt;/p&gt;
+
+&lt;p&gt;보안을 위해 캡슐화를 시켜줌 (IFFI 등을 활용하여)&lt;/p&gt;
+
+&lt;p&gt;객체별로 온전히 구분되어 있어야 코드가 복잡해지지 않음&lt;/p&gt;
+
+&lt;p&gt;반복될 경우 Factory 함수를 만들기도 함.&lt;/p&gt;
+
+&lt;p&gt;상속 - 프로토타입 체인을 활용해서 하는 것이 좋음&lt;/p&gt;
+
+&lt;p&gt;Object.create(obj); //&lt;/p&gt;
+
+&lt;p&gt;prototype, constructor&lt;/p&gt;
+
+&lt;p&gt;오늘 배운 것 = Abstraction(추상화), Encapsulatation(캡슐화), Inheritance(상속)&lt;/p&gt;
+
+&lt;p&gt;이외에도 객체지향 프로그래밍에서 중요한 컨셉들..&lt;/p&gt;
+
+&lt;p&gt;SOLID Principle, KISS(Keep it simple, stupid) , GRASP 등등&lt;/p&gt;
+
+&lt;p&gt;Open for extension, Closed for modification&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;숙제 설명&lt;/p&gt;
+
+&lt;p&gt;v01. OOP - 검색기능 완성하기(현재 페이지 . OOP를 생각하면서 만들어 볼 것.&lt;/p&gt;
+
+&lt;p&gt;git checkout v2-oop&lt;/p&gt;
+
+&lt;p&gt;git push origin v2-oop&lt;/p&gt;
+
+&lt;p&gt;pr 할 때 일치하는 지 확인&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 05 Apr 2018 08:59:59 +0900</pubDate>
+        <link>http://redant23.github.io/javascript/2018/04/05/%E1%84%8C%E1%85%A1%E1%84%87%E1%85%A1%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%B8%E1%84%90%E1%85%B3-%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%80%E1%85%B5.html</link>
+        <guid isPermaLink="true">http://redant23.github.io/javascript/2018/04/05/%E1%84%8C%E1%85%A1%E1%84%87%E1%85%A1%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%B8%E1%84%90%E1%85%B3-%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%80%E1%85%B5.html</guid>
+        
+        
+        <category>javascript</category>
+        
+      </item>
+    
+      <item>
+        <title>180403 자바스크립트 일기</title>
+        <description>&lt;h1 id=&quot;section&quot;&gt;할 일&lt;/h1&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;바닐라튜브 코드 브랜치 v1 훑어보기&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Vanilla Utils 끝내기&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;클로저, this, function 다시보기&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;계산기 사칙연산 넣기(우선 과정 생략)&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+</description>
+        <pubDate>Wed, 04 Apr 2018 08:59:59 +0900</pubDate>
+        <link>http://redant23.github.io/javascript/2018/04/04/%E1%84%8C%E1%85%A1%E1%84%87%E1%85%A1%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%B8%E1%84%90%E1%85%B3-%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%80%E1%85%B5.html</link>
+        <guid isPermaLink="true">http://redant23.github.io/javascript/2018/04/04/%E1%84%8C%E1%85%A1%E1%84%87%E1%85%A1%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%B8%E1%84%90%E1%85%B3-%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%80%E1%85%B5.html</guid>
+        
+        
+        <category>javascript</category>
+        
+      </item>
+    
+      <item>
+        <title>180402 자바스크립트 일기</title>
+        <description>&lt;h1 id=&quot;section&quot;&gt;할 일&lt;/h1&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;자바스크립트&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;VanillaJS 첫 수업&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;수업&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Intro&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;휴식기간 할 일 정해주심 (상담 때 결정)&lt;/p&gt;
+
+&lt;p&gt;다음주 월요일부터 매일 문제풀이&lt;/p&gt;
+
+&lt;p&gt;과제설명 - 바닐라튜브 v1, v2 이번주까지 보고 익숙해지기&lt;/p&gt;
+
+&lt;p&gt;최종 과제 - vanilla-utils-async와 chat simulator&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Primitive &amp;amp; Reference (원시값과 참조값)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Reference === Object (Array, Obj, Function)&lt;/p&gt;
+
+&lt;p&gt;Primitive === Boolean, Number, String, Null, Undefined&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;this 복습 (다음 과제 때 자주 보게 될 것.)&lt;/li&gt;
+&lt;/ol&gt;
+
+</description>
+        <pubDate>Tue, 03 Apr 2018 08:59:59 +0900</pubDate>
+        <link>http://redant23.github.io/javascript/2018/04/03/%E1%84%8C%E1%85%A1%E1%84%87%E1%85%A1%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%B8%E1%84%90%E1%85%B3-%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%80%E1%85%B5.html</link>
+        <guid isPermaLink="true">http://redant23.github.io/javascript/2018/04/03/%E1%84%8C%E1%85%A1%E1%84%87%E1%85%A1%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%B8%E1%84%90%E1%85%B3-%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%80%E1%85%B5.html</guid>
+        
+        
+        <category>javascript</category>
+        
+      </item>
+    
+      <item>
+        <title>180319 자바스크립트 일기</title>
+        <description>&lt;h1 id=&quot;section&quot;&gt;할 일&lt;/h1&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Todo 기능 추가하기(캘린더) // 오늘 집가서 마무리 짓자. 전체보기, 할일보기, 완료보기만 하면 됨.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;바닐라 유틸스 풀기&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;프로그래머스 알고리즘 레벨2 문제 풀기 // 두문제 풀었음. 콜라츠추측과 정수 사이 값 더하기.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;정수 사이 값은 난이도 1 정도의 문제였고 콜라츠 추측은 풀었는데 재귀함수 이용해서 풀 때 오류나는 원인을 잘 모르겠음. 근행님께 물어봐야지.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;메소드들 한번씩 써보기&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;계산기 기획, 디자인, html css 만들기&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;바닐라코딩 할 일&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;커버페이지 (페북, 어바웃) 수정.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;인터뷰 촬영장소 물색 (신논현 근처)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;해외 개발자 방문 기획&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;메인페이지 디자인&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Students 페이지 기획&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;정신이 산만해진 기분이다.&lt;/p&gt;
+
+&lt;p&gt;for랑 if만 이용해서 구현하는 것에 약간 이것만으로 써서 길게 쓰는 것이 적합한가 라는 고민을 계속 했는데&lt;/p&gt;
+
+&lt;p&gt;그리고&lt;/p&gt;
+
+&lt;p&gt;코드 정리를 해가면서 해야할 지 기능 실행이 집중해야 할 지  코드 구조짜는 것을 신경써야할 지 고민이었는데&lt;/p&gt;
+
+&lt;p&gt;근행님이 깔끔히 정리해 주셨다. 코드 구조 짜는 것(어떻게 코딩할 것인지 기획하는 것)이 가장 중요하고&lt;/p&gt;
+
+&lt;p&gt;for랑 if로만 구현해도 지금은 아무 상관없다고, 어차피 하면서 자연스레 익히게 될 것이라고 하셨다.&lt;/p&gt;
+
+&lt;p&gt;그리고 정리는 쓰는 동시에 해나가라고 하셨다. ㅎ&lt;/p&gt;
+
+&lt;p&gt;Todo 기능 중 딱 한 가지가 남았는데 약간 질린다..ㅎ&lt;/p&gt;
+
+&lt;p&gt;집에와서 결국 못했다. 내일 마저 해야지.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 20 Mar 2018 08:59:59 +0900</pubDate>
+        <link>http://redant23.github.io/javascript/2018/03/20/%E1%84%8C%E1%85%A1%E1%84%87%E1%85%A1%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%B8%E1%84%90%E1%85%B3-%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%80%E1%85%B5.html</link>
+        <guid isPermaLink="true">http://redant23.github.io/javascript/2018/03/20/%E1%84%8C%E1%85%A1%E1%84%87%E1%85%A1%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%B8%E1%84%90%E1%85%B3-%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%80%E1%85%B5.html</guid>
+        
+        
+        <category>javascript</category>
+        
+      </item>
+    
+  </channel>
+</rss>

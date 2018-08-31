@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "180611 자바스크립트 일기"
+date:   2018-06-11 23:59:59
+author: redant
+categories: javascript
+---
+
+# 할 일 
+
+0. 문제풀이 // O(logN)으로 최소값 찾기 // 제한시간 30분 못풀었따 ㅠㅠ
+http://jsbin.com/viredumelo/edit?js,console
+
+
+1. 수업듣기 Redux
+---
+
+## 오늘 수업 Redux
+
+
+
+

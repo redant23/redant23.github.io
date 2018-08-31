@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>180306 자바스크립트 일기</title>
+  <meta name="description" content="할 일">
+  
+  <meta name="author" content="Kim Dongjun">
+  <meta name="copyright" content="&copy; Kim Dongjun 2018">
+  
+
+  <!-- External libraries -->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/monokai-sublime.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css">
+
+  <!-- Favicon and other icons (made with http://www.favicon-generator.org/) -->
+  <link rel="shortcut icon" href="/assets/icons/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/assets/icons/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/icons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/assets/icons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/icons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/icons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/assets/icons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/assets/icons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/assets/icons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/assets/icons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/assets/icons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
+  <link rel="manifest" href="/assets/icons/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/assets/icons/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  
+  <!-- Facebook OGP cards -->
+  <meta property="og:description" content="할 일" />
+  <meta property="og:url" content="http://redant23.github.io" />
+  <meta property="og:site_name" content="불개미의 자바스크립트 일기" />
+  <meta property="og:title" content="180306 자바스크립트 일기" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="http://redant23.github.io/assets/logo.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="612" />
+  <meta property="og:image:height" content="605" />
+  
+
+  
+  <!-- Twitter: card tags -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="180306 자바스크립트 일기">
+  <meta name="twitter:description" content="할 일">
+  <meta name="twitter:image" content="http://redant23.github.io/assets/logo.png">
+  <meta name="twitter:url" content="http://redant23.github.io">
+  
+
+  
+
+  <!-- Site styles -->
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://redant23.github.io/javascript/2018/03/07/%E1%84%8C%E1%85%A1%E1%84%87%E1%85%A1%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%B8%E1%84%90%E1%85%B3-%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%80%E1%85%B5.html">
+  <link rel="alternate" type="application/rss+xml" title="불개미의 자바스크립트 일기" href="http://redant23.github.io/feed.xml" />
+</head>
+
+
+  <body>
+
+    <header class="navigation" role="banner">
+  <div class="navigation-wrapper">
+    <a href="/" class="logo">
+      
+      <img src="/assets/logo.png" alt="불개미의 자바스크립트 일기">
+      
+    </a>
+    <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <nav role="navigation">
+      <ul id="js-navigation-menu" class="navigation-menu show">
+        
+          
+          <li class="nav-link"><a href="/about/">About</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+          <li class="nav-link"><a href="/posts/">Posts</a>
+          
+        
+          
+          <li class="nav-link"><a href="/typography/">Typography</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+    <div class="page-content">
+        <div class="post">
+
+<div class="post-header-container " >
+  <div class="scrim ">
+    <header class="post-header">
+      <h1 class="title">180306 자바스크립트 일기</h1>
+      <p class="info">by <strong>redant</strong></p>
+    </header>
+  </div>
+</div>
+
+<div class="wrapper">
+
+ <span class="page-divider">
+  <span class="one"></span>
+  <span class="two"></span>
+</span>
+ 
+
+<section class="post-meta">
+  <div class="post-date">March 7, 2018</div>
+  <div class="post-categories">
+  in 
+    
+    <a href="/category/javascript">Javascript</a>
+    
+  
+  </div>
+</section>
+
+<article class="post-content">
+  <h1 id="section">할 일</h1>
+
+<ol>
+  <li>
+    <p>vanilla-calendar 과제풀기 // 진행</p>
+  </li>
+  <li>
+    <p>setTimeout 다시풀기</p>
+  </li>
+  <li>
+    <p>function 응용해서 풀기</p>
+  </li>
+  <li>
+    <p>레벨2 알고리즘 문제 하나 풀기</p>
+  </li>
+  <li>
+    <p>utils 마저 풀기</p>
+  </li>
+</ol>
+
+<hr />
+
+<p>할일 계획은 이렇게 잡았다만 1번 바닐라 캘린더 제작에 하루를 다 썼다.</p>
+
+<p>이벤트 발생하는 것 전까지의 일은 그래도 모두 끝냈다.</p>
+
+<p>과제를 하면서 많이 유용하다고 생각되는 html 삽입 방법을 알게 되었다.</p>
+
+<p><code class="highlighter-rouge">Element.insertAdjaccentHTML()</code> 인데</p>
+
+<p>미리 작성되어 있는 HTML을 수정하는 방법은 DOM으로 잡아서 <code class="highlighter-rouge">innerHTML()</code>을 사용하여</p>
+
+<p>수정했었고, <code class="highlighter-rouge">document.write()</code>를 사용하여 추가로 작성했지만</p>
+
+<p>특정 엘리먼트의 안 또는 밖에 기존의 html을 없애지 않은 상태로 끼워넣는 방법(내가 궁금했었던)</p>
+
+<p>이 바로 <code class="highlighter-rouge">insertAdjaccentHTML()</code>이었다.</p>
+
+<p>아직 HTML 특정 영역을 반복하는 방법은 찾지 못했지만(없을 수도..) 그 방법 외에</p>
+
+<p>현재 찾아낸 방법 중에는 가장 좋았다.</p>
+
+<p>그리고 Date 활용법에 대해서도 좀 더 심도있게 알게 되었다.</p>
+
+<p>내일 이벤트 붙이면서 좀 더 알게 될 수도 있지만 ㅎ</p>
+
+
+</article>
+
+
+
+
+
+<section class="rss">
+  <p class="rss-subscribe text"><strong>Subscribe <a href="/feed.xml">via RSS</a></strong></p>
+</section>
+
+<section class="share">
+  <span>Share: </span>
+  
+    
+    
+    
+      <a href="//www.facebook.com/sharer.php?t=180306+%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8+%EC%9D%BC%EA%B8%B0&u=http%3A%2F%2Fredant23.github.io%2Fjavascript%2F2018%2F03%2F07%2F%25E1%2584%258C%25E1%2585%25A1%25E1%2584%2587%25E1%2585%25A1%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25B8%25E1%2584%2590%25E1%2585%25B3-%25E1%2584%258B%25E1%2585%25B5%25E1%2586%25AF%25E1%2584%2580%25E1%2585%25B5.html"
+        onclick="window.open(this.href, 'facebook-share', 'width=550,height=255');return false;">
+        <i class="fa fa-facebook-square fa-lg"></i>
+      </a>
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+      <a href="//www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Fredant23.github.io%2Fjavascript%2F2018%2F03%2F07%2F%25E1%2584%258C%25E1%2585%25A1%25E1%2584%2587%25E1%2585%25A1%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25B8%25E1%2584%2590%25E1%2585%25B3-%25E1%2584%258B%25E1%2585%25B5%25E1%2586%25AF%25E1%2584%2580%25E1%2585%25B5.html"
+        onclick="window.open(this.href, 'linkedin-share', 'width=550,height=255');return false;">
+        <i class="fa fa-linkedin-square fa-lg"></i>
+      </a>
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+</section>
+
+
+
+
+</div>
+</div>
+
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h3 class="footer-heading">불개미의 자바스크립트 일기</h3>
+
+    <div class="site-navigation">
+
+      <p><strong>Site Map</strong></p>
+      <ul class="pages">
+        
+        
+          <li class="nav-link"><a href="/about/">About</a>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+          <li class="nav-link"><a href="/posts/">Posts</a>
+        
+        
+        
+          <li class="nav-link"><a href="/typography/">Typography</a>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      </ul>
+    </div>
+
+    <div class="site-contact">
+
+      <p><strong>Contact</strong></p>
+      <ul class="social-media-list">
+        <li>
+          <a href="mailto:kimdongjun23@gmail.com">
+            <i class="fa fa-envelope-o"></i>
+            <span class="username">kimdongjun23@gmail.com</span>
+          </a>
+        </li>
+
+        
+          
+          <li>
+            <a href="fb.com/redant23" title="Friend me on Facebook">
+              <i class="fa fa-facebook"></i>
+              <span class="username">Kim Dongjun</span>
+            </a>
+          </li>
+          
+        
+          
+          <li>
+            <a href="https://github.com/redant23" title="Fork me on GitHub">
+              <i class="fa fa-github"></i>
+              <span class="username">Kim Dongjun</span>
+            </a>
+          </li>
+          
+        
+          
+          <li>
+            <a href="https://www.linkedin.com/in/redant23" title="Connect with me on LinkedIn">
+              <i class="fa fa-linkedin"></i>
+              <span class="username">Kim Dongjun</span>
+            </a>
+          </li>
+          
+        
+          
+        
+          
+        
+
+      </ul>
+    </div>
+
+    <div class="site-signature">
+      <p class="rss-subscribe text"><strong>Subscribe <a href="/feed.xml">via RSS</a></strong></p>
+      <p class="text">A simple yet classy theme for your Jekyll website or blog.
+</p>
+    </div>
+
+  </div>
+
+</footer>
+
+<!-- Scripts -->
+<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.5/highlight.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+  // Default syntax highlighting
+  hljs.initHighlightingOnLoad();
+
+  // Header
+  var menuToggle = $('#js-mobile-menu').unbind();
+  $('#js-navigation-menu').removeClass("show");
+  menuToggle.on('click', function(e) {
+    e.preventDefault();
+    $('#js-navigation-menu').slideToggle(function(){
+      if($('#js-navigation-menu').is(':hidden')) {
+        $('#js-navigation-menu').removeAttr('style');
+      }
+    });
+  });
+});
+
+</script>
+
+
+
+
+
+
+  </body>
+
+</html>

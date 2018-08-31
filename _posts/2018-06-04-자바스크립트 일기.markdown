@@ -1,0 +1,28 @@
+---
+layout: post
+title:  "180604 자바스크립트 일기"
+date:   2018-06-04 23:59:59
+author: redant
+categories: javascript
+---
+
+# 할 일 
+
+0. 문제풀이 // O(logN)으로 정렬된 배열 요소 인덱스값 찾기. 풀이 적었는데 맥시멈 콜스택 나온다. 다시 확인해보기
+
+http://jsbin.com/wufaxomoqu/edit?js,console
+
+
+1. 수업듣기 React Router 2
+---
+setState는 비동기기 때문에 값이 진행되고 나서 변화할 수 있다. 따라서 그렇게 이용할 땐 함수를 넣어서 해야한다.
+지금 검색에 잘못 해놓은 것 같은데 확인 후 수정해보자.
+
+
+---
+
+## 오늘 수업 React Router
+
+
+
+

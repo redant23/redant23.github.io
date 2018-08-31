@@ -1,0 +1,42 @@
+---
+layout: post
+title:  "180425 자바스크립트 일기"
+date:   2018-04-25 23:59:59
+author: redant
+categories: javascript
+---
+
+# 할 일 
+
+0. v7-async // 진행중
+
+1. 수업듣기
+
+---
+
+오늘의 문제! UI 문제 - innerHtml,innerText 쓰지 않고 회전목마(carousel)처럼 Active로 html element 다섯개를 번갈아 활성화 시킨다.
+
+버튼은 div가 아닌 button태그를 쓰자.
+
+Array.prototype.forEach.call(ARRAY, FUNCTION(EL,INDEX)) // for 대신해서 쓸 수 있음.
+
+http://jsbin.com/fowesasovi/edit?html,css,js,output
+
+
+
+---
+
+## 오늘 수업 - 함수형 프로그래밍, Functional Programming
+
+고차원적 개념, Pure Function ( 같은 값을 인풋했을 때 아웃풋이 늘 동일해야 한다, 변수의 다른 함수에 의해 간섭받지 않아야 한다.)
+
+map, filter, reduce는 함수형 프로그래밍 st. 메소드
+
+Function Composition - 함수끼리 정보를 주고 받을 때 사용되는 기법.
+
+pipe 함수, compose 함수 - pipe 인자 순서로 함수를 실행시켜줌, compose 인사 역순으로 함수를 실행시켜줌. (Ramda JS Doc 참고)
+
+
+
+
+

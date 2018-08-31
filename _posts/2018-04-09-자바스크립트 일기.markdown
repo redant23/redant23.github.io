@@ -1,0 +1,61 @@
+---
+layout: post
+title:  "180409 자바스크립트 일기"
+date:   2018-04-09 23:59:59
+author: redant
+categories: javascript
+---
+
+# 할 일 
+
+
+0. 바닐라튜브 코드 브랜치 v1 훑어보기 // 1
+
+1. Vanilla Utils 끝내기 // 0
+
+2. 클로저, this, function 다시보기 // 0
+
+3. 계산기 사칙연산 넣기(우선 과정 생략) // 0
+
+4. 수업듣기 // 
+
+---
+
+다른 사람이 쓴 코드는 한 사람이 쓴 것처럼 통일되도록 맞추기
+
+깃은 깃을 쓰는 목적에 맞게 디렉토리 생성은 딱 1개만 받기
+
+---
+
+오늘의 문제! 알고리즘 문제가 아니었음. 피아노건반 문제(제한시간 25분. 실패.)
+http://jsbin.com/jakizolake/6/edit?css,js,output
+
+---
+
+MVC - Model View Controller (시작점)
+
+Model - 자료와 관련된, 서버에게 받거나 클라이언트한테 받은, 자료실
+View - Dom 과 관련된, 시각디자인실
+Controller - 모델과 뷰와의 매개체, 사장실
+
+MV* MVVM FLUX, Redux, etc.
+
+**Component** 엄청 중요 // 유행하고 있고 // 대다수 프레임워크에서 사용
+화면 UI를 기준으로 부분적으로 나눠서 쓸 수 있게 코드를 짜는 방식
+중복되는 내용들은 컴포넌트 만드는게 훨씬 좋다
+뷰의 하위개념. 핫함
+철저하게 구분지으면 View는 Dom 조작할 때, 똑같은 형태가 반복될 때 Component
+
+Object.defineproperties 검색해서 이해해보고 사용해보기
+
+### 이번주 과제 ###
+
+- v3, v4 완료하고 제출하기
+
+- git branch 사용법 익숙하게 계속 써보기
+
+
+
+
+
+

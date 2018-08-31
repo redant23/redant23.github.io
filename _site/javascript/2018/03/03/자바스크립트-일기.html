@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>180302 자바스크립트 일기</title>
+  <meta name="description" content="할 일">
+  
+  <meta name="author" content="Kim Dongjun">
+  <meta name="copyright" content="&copy; Kim Dongjun 2018">
+  
+
+  <!-- External libraries -->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/monokai-sublime.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css">
+
+  <!-- Favicon and other icons (made with http://www.favicon-generator.org/) -->
+  <link rel="shortcut icon" href="/assets/icons/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/assets/icons/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/icons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/assets/icons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/icons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/icons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/assets/icons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/assets/icons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/assets/icons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/assets/icons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/assets/icons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
+  <link rel="manifest" href="/assets/icons/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/assets/icons/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  
+  <!-- Facebook OGP cards -->
+  <meta property="og:description" content="할 일" />
+  <meta property="og:url" content="http://redant23.github.io" />
+  <meta property="og:site_name" content="불개미의 자바스크립트 일기" />
+  <meta property="og:title" content="180302 자바스크립트 일기" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="http://redant23.github.io/assets/logo.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="612" />
+  <meta property="og:image:height" content="605" />
+  
+
+  
+  <!-- Twitter: card tags -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="180302 자바스크립트 일기">
+  <meta name="twitter:description" content="할 일">
+  <meta name="twitter:image" content="http://redant23.github.io/assets/logo.png">
+  <meta name="twitter:url" content="http://redant23.github.io">
+  
+
+  
+
+  <!-- Site styles -->
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://redant23.github.io/javascript/2018/03/03/%E1%84%8C%E1%85%A1%E1%84%87%E1%85%A1%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%B8%E1%84%90%E1%85%B3-%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%80%E1%85%B5.html">
+  <link rel="alternate" type="application/rss+xml" title="불개미의 자바스크립트 일기" href="http://redant23.github.io/feed.xml" />
+</head>
+
+
+  <body>
+
+    <header class="navigation" role="banner">
+  <div class="navigation-wrapper">
+    <a href="/" class="logo">
+      
+      <img src="/assets/logo.png" alt="불개미의 자바스크립트 일기">
+      
+    </a>
+    <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <nav role="navigation">
+      <ul id="js-navigation-menu" class="navigation-menu show">
+        
+          
+          <li class="nav-link"><a href="/about/">About</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+          <li class="nav-link"><a href="/posts/">Posts</a>
+          
+        
+          
+          <li class="nav-link"><a href="/typography/">Typography</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+    <div class="page-content">
+        <div class="post">
+
+<div class="post-header-container " >
+  <div class="scrim ">
+    <header class="post-header">
+      <h1 class="title">180302 자바스크립트 일기</h1>
+      <p class="info">by <strong>redant</strong></p>
+    </header>
+  </div>
+</div>
+
+<div class="wrapper">
+
+ <span class="page-divider">
+  <span class="one"></span>
+  <span class="two"></span>
+</span>
+ 
+
+<section class="post-meta">
+  <div class="post-date">March 3, 2018</div>
+  <div class="post-categories">
+  in 
+    
+    <a href="/category/javascript">Javascript</a>
+    
+  
+  </div>
+</section>
+
+<article class="post-content">
+  <h1 id="section">할 일</h1>
+
+<ol>
+  <li>vanilla-utils part 1 <code class="highlighter-rouge">_.reduce</code>랑 part2 풀기</li>
+</ol>
+
+<p>reduce 드디어 풀었다. 약 4시간 가량 걸렸음.. 이해는 약 85%정도 된 듯.</p>
+
+<p>함수 안에 실행된 함수의 리턴은 바깥 함수에 영향을 주지 않음.</p>
+
+<p>리턴의 필요 여부는 함수 결과값을 어디서 요구하냐에 따라 리턴을 먹여주면 된다고 생각됨</p>
+
+<p>++ 리듀스 추가 수정. 오류가 예상됐었던 obj 부분을 추가로 작성했고, accumulator 값에 false가 들어와도 인정하는 코드를 추가했다.</p>
+
+<ol>
+  <li>수업듣기</li>
+</ol>
+
+<p>뭔가 실력이 생기는 건 선호여부와 관계없이 얼마나 시간을 투자하느냐에 따라 달라진다.</p>
+
+<hr />
+
+<p>addEventListener 등록한 것 삭제하는 법</p>
+
+<p>removeEventListner();</p>
+
+<h2 id="dom--cssom">DOM &amp; CSSOM</h2>
+
+<p>HTML - Hyper Text Markup Language</p>
+
+<p>‘Marking up’</p>
+
+<p>CSS - Cascading Style Sheets</p>
+
+<p>‘Cascading’</p>
+
+<p>상위 노드에서 하위 노드로 상속되는 특징이 있다.</p>
+
+<p>CSS Specificity (중요도)</p>
+
+<p>DOM - HTML에 접근하기 위한 API</p>
+
+<p>tree구조로 접근하게 해준다.</p>
+
+<p>Node - 도큐먼트 내에 기능이 있는 객체들</p>
+
+<p>CSSOM - css를 트리구조로 접근하기 위한 API</p>
+
+<p>DOM과 CSSOM을 합친 것이 Render Tree(보여줘야 될 것들만 들어감, display:none이나 헤드 안의 것들은 포함안됨)</p>
+
+<h2 id="section-1">웹 브라우저 로딩 프로세스</h2>
+
+<p>Render Tree -&gt; Layout,Reflow (이 단계를 통해 박스모델이 나온다.) -&gt; Painting -&gt; Adding Javascript</p>
+
+<p>Render Blocking Resources &lt;- html css 화면을 보여주기 위한 필수적 자원</p>
+
+<p>Critical Rendering Path &lt;- 페이지 로딩 프로세스에 맞춰 최적화시키는 과정</p>
+
+<p>CSSOM 완성 전에는 자바스크립트를 실행시키지 않음.(일반적으로)</p>
+
+<p>DOM은 script 태그를 만나면 실행되는 동안 DOM Construction은 멈춤 (그래서 script 태그는 보통 바디 하단에 꽂는다. 단 DOM에 지장을 주지 않는 스크립트 태그는 헤드 쪽에 꽂아도 무방)</p>
+
+<p>다음 레벨 과제안내 . 비동기 처리 – 비동기 처리가 자바스크립트 개발에 엄청 중요한 듯.</p>
+
+<p>udacity 에서 웹페이지 과정에 관한 강의가 있다(무료)</p>
+
+<ol>
+  <li>어코디언 버블링 이해할 수 있게 다시 제작 // <em>태그가 중요 부모와 자식 관계여야 함.</em></li>
+</ol>
+
+<hr />
+<hr />
+
+<p>13시부터 작업. 15시 45분에 우선 css 1차 완료.</p>
+
+<p>아이템이 떠올랐다. 기능 구현은 쉽지 않다고 여겨지지만..</p>
+
+<p>[이어폰으로 가능한 보이스 톡]
+걸어다니면서 톡할수 있다.
+알림설정 되있는 톡은 톡왔을때 음성으로 들려준다.(‘누구누구’님한테 메시지가 왔습니다.)
+‘누구누구’ 음성톡모드로 전환하시려면 버튼을 2초 눌러주세요.</p>
+
+<p>성별 연령대 설정하면 그에 맞는 음성으로 읽어준다.
+듣고 할 말은 무전기처럼 버튼누르고 말하고 떼면 전송된다.
+음성으로 보낸 톡은 음성으로 들을 수 있다.(옵션에서 설정가능)
+톡방을 나가려면 버튼을 연속으로 세번 누르면 된다.</p>
+
+<p>대화방에서 음성톡모드로 변경한 뒤 이동할 수 있다.
+음성톡 모드 이용 중 다른 음성톡으로 전환하려면 ?</p>
+
+<p>여러 명이 있는 방에서 여러 음성들을 구분하려면 ?</p>
+
+<p>톡하면서 가다가 발생하는 문제상황을 해결할 수 있다.
+추울 때도 톡할 수 있다.
+통화가 불가능한 사람과도 음성으로 대화할 수 있다.</p>
+
+
+</article>
+
+
+
+
+
+<section class="rss">
+  <p class="rss-subscribe text"><strong>Subscribe <a href="/feed.xml">via RSS</a></strong></p>
+</section>
+
+<section class="share">
+  <span>Share: </span>
+  
+    
+    
+    
+      <a href="//www.facebook.com/sharer.php?t=180302+%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8+%EC%9D%BC%EA%B8%B0&u=http%3A%2F%2Fredant23.github.io%2Fjavascript%2F2018%2F03%2F03%2F%25E1%2584%258C%25E1%2585%25A1%25E1%2584%2587%25E1%2585%25A1%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25B8%25E1%2584%2590%25E1%2585%25B3-%25E1%2584%258B%25E1%2585%25B5%25E1%2586%25AF%25E1%2584%2580%25E1%2585%25B5.html"
+        onclick="window.open(this.href, 'facebook-share', 'width=550,height=255');return false;">
+        <i class="fa fa-facebook-square fa-lg"></i>
+      </a>
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+      <a href="//www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Fredant23.github.io%2Fjavascript%2F2018%2F03%2F03%2F%25E1%2584%258C%25E1%2585%25A1%25E1%2584%2587%25E1%2585%25A1%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25B8%25E1%2584%2590%25E1%2585%25B3-%25E1%2584%258B%25E1%2585%25B5%25E1%2586%25AF%25E1%2584%2580%25E1%2585%25B5.html"
+        onclick="window.open(this.href, 'linkedin-share', 'width=550,height=255');return false;">
+        <i class="fa fa-linkedin-square fa-lg"></i>
+      </a>
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+</section>
+
+
+
+
+</div>
+</div>
+
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h3 class="footer-heading">불개미의 자바스크립트 일기</h3>
+
+    <div class="site-navigation">
+
+      <p><strong>Site Map</strong></p>
+      <ul class="pages">
+        
+        
+          <li class="nav-link"><a href="/about/">About</a>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+          <li class="nav-link"><a href="/posts/">Posts</a>
+        
+        
+        
+          <li class="nav-link"><a href="/typography/">Typography</a>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      </ul>
+    </div>
+
+    <div class="site-contact">
+
+      <p><strong>Contact</strong></p>
+      <ul class="social-media-list">
+        <li>
+          <a href="mailto:kimdongjun23@gmail.com">
+            <i class="fa fa-envelope-o"></i>
+            <span class="username">kimdongjun23@gmail.com</span>
+          </a>
+        </li>
+
+        
+          
+          <li>
+            <a href="fb.com/redant23" title="Friend me on Facebook">
+              <i class="fa fa-facebook"></i>
+              <span class="username">Kim Dongjun</span>
+            </a>
+          </li>
+          
+        
+          
+          <li>
+            <a href="https://github.com/redant23" title="Fork me on GitHub">
+              <i class="fa fa-github"></i>
+              <span class="username">Kim Dongjun</span>
+            </a>
+          </li>
+          
+        
+          
+          <li>
+            <a href="https://www.linkedin.com/in/redant23" title="Connect with me on LinkedIn">
+              <i class="fa fa-linkedin"></i>
+              <span class="username">Kim Dongjun</span>
+            </a>
+          </li>
+          
+        
+          
+        
+          
+        
+
+      </ul>
+    </div>
+
+    <div class="site-signature">
+      <p class="rss-subscribe text"><strong>Subscribe <a href="/feed.xml">via RSS</a></strong></p>
+      <p class="text">A simple yet classy theme for your Jekyll website or blog.
+</p>
+    </div>
+
+  </div>
+
+</footer>
+
+<!-- Scripts -->
+<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.5/highlight.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+  // Default syntax highlighting
+  hljs.initHighlightingOnLoad();
+
+  // Header
+  var menuToggle = $('#js-mobile-menu').unbind();
+  $('#js-navigation-menu').removeClass("show");
+  menuToggle.on('click', function(e) {
+    e.preventDefault();
+    $('#js-navigation-menu').slideToggle(function(){
+      if($('#js-navigation-menu').is(':hidden')) {
+        $('#js-navigation-menu').removeAttr('style');
+      }
+    });
+  });
+});
+
+</script>
+
+
+
+
+
+
+  </body>
+
+</html>

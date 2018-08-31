@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "180403 자바스크립트 일기"
+date:   2018-04-03 23:59:59
+author: redant
+categories: javascript
+---
+
+# 할 일 
+
+
+0. 바닐라튜브 코드 브랜치 v1 훑어보기
+
+1. Vanilla Utils 끝내기
+
+2. 클로저, this, function 다시보기
+
+3. 계산기 사칙연산 넣기(우선 과정 생략)
+
+---

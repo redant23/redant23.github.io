@@ -1,0 +1,32 @@
+---
+layout: post
+title:  "180523 자바스크립트 일기"
+date:   2018-05-23 23:59:59
+author: redant
+categories: javascript
+---
+
+# 할 일 
+
+0. 문제풀이
+
+1. 수업듣기  react 
+
+---
+
+오늘의 문제! 간단한 프로미스 만들기 . http://jsbin.com/nageniveju/edit?js,console
+
+실패. this의 활용 (30분)
+
+this, function(func) 이거 여전히 어렵다.
+
+---
+
+## 오늘 수업 react
+
+props, state, components 만드는법 알면 react를 어느정도 할 수 있따..
+props 외부정보
+state 내부정보
+
+
+만들때 주로 컨스트럭터 맨 위에 렌더 맨 밑에 작성해준다.

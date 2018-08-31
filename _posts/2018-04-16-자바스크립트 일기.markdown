@@ -1,0 +1,50 @@
+---
+layout: post
+title:  "180416 자바스크립트 일기"
+date:   2018-04-16 23:59:59
+author: redant
+categories: javascript
+---
+
+# 할 일 
+
+0. vanilla-utils 끝내기 // delay 남음.
+
+1. 수업듣기
+
+---
+
+오늘의 문제! 알고리즘 문제 - convertString 
+`ex) var a = convertString('aaabccdddd'); // => 'a3b1c2d4'`
+http://jsbin.com/xutafarexi/1/edit?js,console
+조건에 `i + 1 !== undefined` 말고 더 엘레강스하게 적는 법 알아보기
+
+
+---
+
+## 오늘 수업 - Client Side Routing
+
+windows.history
+
+history.back();
+
+history.forward();
+
+history.go(1 or -1);
+
+history.pushstate("")
+
+hash
+
+${}  -  template literals (ES6에서 생긴 기능)
+
+v6. 바뀐 거 pull 받기 (통합) 복습 영상 마지막 참고 ('rebase 활용')
+
+
+
+
+
+
+
+
+

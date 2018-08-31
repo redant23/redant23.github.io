@@ -1,0 +1,31 @@
+---
+layout: post
+title:  "180430 자바스크립트 일기"
+date:   2018-04-30 23:59:59
+author: redant
+categories: javascript
+---
+
+# 할 일 
+
+0. chat-simulator // 진행중
+
+1. 수업듣기
+
+---
+
+오늘의 문제! 잔돈계산기 / 풀었으나 확장가능성있게 풀지는 못함. 다른 잔돈이 생기더라도 쉽게 적용가능한 코드로 만들어보자
+http://jsbin.com/xenuyasipe/edit?js,console
+배열을 큰 숫자대로 넣은 뒤,
+나누고 빼고 나누고 빼고 해주면 됨.
+확장가능성있게 하려면 배열을 받아서 하면 됨.
+다 돌리려면 forEach를 쓰면 됨.
+
+
+---
+
+## 오늘 수업 - Publish & Subscribe
+
+MVC가 별개로 존재하기 위해 전달자 역할을 하는 도구로써 활용하는 프로그램 패턴
+
+

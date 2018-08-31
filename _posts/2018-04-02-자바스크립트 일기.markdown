@@ -1,0 +1,46 @@
+---
+layout: post
+title:  "180402 자바스크립트 일기"
+date:   2018-04-02 23:59:59
+author: redant
+categories: javascript
+---
+
+# 할 일 
+
+
+0. 자바스크립트
+
+1. VanillaJS 첫 수업
+
+---
+
+## 수업
+
+0. Intro
+  
+  휴식기간 할 일 정해주심 (상담 때 결정)
+
+  다음주 월요일부터 매일 문제풀이
+
+  과제설명 - 바닐라튜브 v1, v2 이번주까지 보고 익숙해지기
+
+  최종 과제 - vanilla-utils-async와 chat simulator 
+
+
+
+1. Primitive & Reference (원시값과 참조값)
+
+  Reference === Object (Array, Obj, Function)
+
+
+
+  Primitive === Boolean, Number, String, Null, Undefined
+  
+
+
+  
+2. this 복습 (다음 과제 때 자주 보게 될 것.)
+
+
+  

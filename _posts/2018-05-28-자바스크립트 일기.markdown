@@ -1,0 +1,26 @@
+---
+layout: post
+title:  "180528 자바스크립트 일기"
+date:   2018-05-28 23:59:59
+author: redant
+categories: javascript
+---
+
+# 할 일 
+
+0. 문제풀이
+
+스택 이용하여 큐 구현하기(30분) http://jsbin.com/tekotenoma/edit?js,console
+// 못풀었다. 링크에는 내가 푼 것과 켄님이 푼 것이 있음.
+
+
+1. 수업듣기  react 
+firebase 이용해서 로그인 구현.
+
+---
+
+
+---
+
+## 오늘 수업 
+

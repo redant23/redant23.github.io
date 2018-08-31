@@ -1,0 +1,54 @@
+---
+layout: post
+title:  "180502 자바스크립트 일기"
+date:   2018-05-02 23:59:59
+author: redant
+categories: javascript
+---
+
+# 할 일 
+
+0. async utils // 시작
+
+1. 수업듣기
+
+---
+
+오늘의 문제! 단 한번의 이동으로 오름차순 정렬이 된다면 true 안되면 false // 난이도 상 / 못 품
+
+http://jsbin.com/zatomuwaga/edit?js,console
+
+시간복잡도, 공간복잡도
+
+Time Compelesity
+Space Compelesity
+
+O(N), O(1)
+
+
+---
+
+## 오늘 수업 - 비동기 . ES6 - Promise & Async
+
+promise
+
+Promise는 단순히 콜백헬을 탈피하기 위함이 아니라
+
+비동기코드를 객체화하여 다룰 수 있어 활용도를 높일 수 있다.
+
+객체지향 프로그래밍을 접목해서 비동기 패턴을 다룰 수 있게 해주는게 핵심.
+
+
+
+Async/Await
+
+동기처럼 쓸 수 있게 해주는 비동기함수
+promise 반환이 기본. 그래서 return값에 then을 쓸 수 있다.
+async는 쓰고 await을 안쓰면 에러는 안나지만 await을 쓰고 async를 안쓰면 에러가 난다.
+
+
+
+
+
+
+

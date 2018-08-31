@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>180212 자바스크립트 일기</title>
+  <meta name="description" content="오늘의 시작 - level2 알고리즘 문제 [2016년]">
+  
+  <meta name="author" content="Kim Dongjun">
+  <meta name="copyright" content="&copy; Kim Dongjun 2018">
+  
+
+  <!-- External libraries -->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/monokai-sublime.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css">
+
+  <!-- Favicon and other icons (made with http://www.favicon-generator.org/) -->
+  <link rel="shortcut icon" href="/assets/icons/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/assets/icons/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/icons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/assets/icons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/icons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/icons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/assets/icons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/assets/icons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/assets/icons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/assets/icons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/assets/icons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
+  <link rel="manifest" href="/assets/icons/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/assets/icons/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  
+  <!-- Facebook OGP cards -->
+  <meta property="og:description" content="오늘의 시작 - level2 알고리즘 문제 [2016년]" />
+  <meta property="og:url" content="http://redant23.github.io" />
+  <meta property="og:site_name" content="불개미의 자바스크립트 일기" />
+  <meta property="og:title" content="180212 자바스크립트 일기" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="http://redant23.github.io/assets/logo.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="612" />
+  <meta property="og:image:height" content="605" />
+  
+
+  
+  <!-- Twitter: card tags -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="180212 자바스크립트 일기">
+  <meta name="twitter:description" content="오늘의 시작 - level2 알고리즘 문제 [2016년]">
+  <meta name="twitter:image" content="http://redant23.github.io/assets/logo.png">
+  <meta name="twitter:url" content="http://redant23.github.io">
+  
+
+  
+
+  <!-- Site styles -->
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://redant23.github.io/javascript/2018/02/13/%E1%84%8C%E1%85%A1%E1%84%87%E1%85%A1%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%B8%E1%84%90%E1%85%B3-%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%80%E1%85%B5.html">
+  <link rel="alternate" type="application/rss+xml" title="불개미의 자바스크립트 일기" href="http://redant23.github.io/feed.xml" />
+</head>
+
+
+  <body>
+
+    <header class="navigation" role="banner">
+  <div class="navigation-wrapper">
+    <a href="/" class="logo">
+      
+      <img src="/assets/logo.png" alt="불개미의 자바스크립트 일기">
+      
+    </a>
+    <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <nav role="navigation">
+      <ul id="js-navigation-menu" class="navigation-menu show">
+        
+          
+          <li class="nav-link"><a href="/about/">About</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+          <li class="nav-link"><a href="/posts/">Posts</a>
+          
+        
+          
+          <li class="nav-link"><a href="/typography/">Typography</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+    <div class="page-content">
+        <div class="post">
+
+<div class="post-header-container " >
+  <div class="scrim ">
+    <header class="post-header">
+      <h1 class="title">180212 자바스크립트 일기</h1>
+      <p class="info">by <strong>redant</strong></p>
+    </header>
+  </div>
+</div>
+
+<div class="wrapper">
+
+ <span class="page-divider">
+  <span class="one"></span>
+  <span class="two"></span>
+</span>
+ 
+
+<section class="post-meta">
+  <div class="post-date">February 13, 2018</div>
+  <div class="post-categories">
+  in 
+    
+    <a href="/category/javascript">Javascript</a>
+    
+  
+  </div>
+</section>
+
+<article class="post-content">
+  <p>오늘의 시작 - level2 알고리즘 문제 [2016년]</p>
+
+<p>16년 1월 1일이 금요일일 때, 16년 5월 24일은 무슨 요일인 지를 출력하라</p>
+
+<p><code class="highlighter-rouge">for</code>, <code class="highlighter-rouge">if</code> 와 배열 메소드를 활용하여 풀게 되었지만 코드가 엄청 길어졌다.</p>
+
+<p>다른 사람의 풀이를 보니 <code class="highlighter-rouge">Date()</code> 함수를 이용해서 짧고 쉽게 끝냈다.</p>
+
+<p>Date 함수는 <code class="highlighter-rouge">var x = new Date('YYYY-MM-DD');</code> 이런 식으로 먼저 선언한 뒤,(괄호 안을 생략하여 사용할 수도 있다.)</p>
+
+<p>date 메소드를 활용하여 값을 이용할 수 있다.</p>
+
+<hr />
+
+<p><code class="highlighter-rouge">dateObj</code>
+필수 사항    Date 개체가 할당되는 변수 이름입니다.</p>
+
+<p><code class="highlighter-rouge">dateVal</code>
+필수 사항   숫자값 dateVal이 UTC(Universal Coordinated Time)로 지정된 날짜와 1970년 1월 1일 자정 사이의 시간을 밀리초로 나타냅니다.  문자열인 경우 dateVal이 날짜 및 시간 문자열(JavaScript)의 규칙에 따라 구문 분석됩니다.   dateVal 인수는 ActiveX 개체에서 반환된 VT_DATE 값일 수도 있습니다.</p>
+
+<p><code class="highlighter-rouge">year</code>
+필수 사항   예를 들어 76이 아니라 1976처럼 전체 연도로 나타냅니다.</p>
+
+<p><code class="highlighter-rouge">month</code>
+필수 사항   월은 0부터 11까지의 정수(1월부터 12월)로 나타냅니다.</p>
+
+<p><code class="highlighter-rouge">date</code>
+필수 사항   날짜는 1부터 31까지의 정수로 나타냅니다.</p>
+
+<p><code class="highlighter-rouge">hours</code>
+선택 사항입니다.   minutes를 사용하면 반드시 사용해야 합니다.  시간은 0부터 23까지(자정부터 오후 11시)의 정수로 나타냅니다.</p>
+
+<p><code class="highlighter-rouge">minutes</code>
+선택 사항입니다.   seconds를 사용하면 반드시 사용해야 합니다.  분은 0부터 59까지의 정수로 나타냅니다.</p>
+
+<p><code class="highlighter-rouge">seconds</code>
+선택 사항입니다.   milliseconds를 사용하면 반드시 사용해야 합니다.  초는 0부터 59까지의 정수로 나타냅니다.</p>
+
+<p><code class="highlighter-rouge">ms</code>
+선택 사항입니다.  밀리초는 0부터 999까지의 정수로 나타냅니다.</p>
+
+<hr />
+
+<p>출처 : https://msdn.microsoft.com/ko-kr/library/cd9w2te4(v=vs.94).aspx</p>
+
+<p>이 문제만 풀었는데 수업 들을 시간이 되었다. 좀 늦게 도착(오후 2시)하기도 했고 며칠 손을 놓고 있었기 때문이기도 했고 디자인 관련 얘기를 나눴기 때문이기도 했다.</p>
+
+<p>이번 수업엔 DOM을 배우는데 빨리 배우고 싶다.</p>
+
+<p>문서 내에서 특정 위치에 특정 값 선택하고 넣고, 빼고, 더하고만 우선 능숙하게 할 수 있었으면 좋겠다. 기대된다.</p>
+
+<p>[수업 시작]</p>
+
+<p>개발 잘하려면 논리적인 것이 베이스로 깔려 있고 나서 창의적이어야 된다.</p>
+
+<p>함수 기준으로 스코프가 생긴다. 내부에서 외부는 값을 가져오지만 외부에서 내부는 가져올 수 없다.</p>
+
+<p>메소드 함수에서 리턴하는 리턴값이 뭔지 알고 있는게 좋다. ** push의 반환값은 새롭게 변한 배열의 length값</p>
+
+<p>원시값 - 스트링, 불리언, 넘버 vs 참조값 - 오브젝트    **  primitive vs reference [] === []  // false {name: 333} === {name: 333} // falase ; 참조값이라서</p>
+
+<p>object 에는 key 와 value 값이 들어감.</p>
+
+<p>즉시실행 함수 immediately invoked function expression</p>
+
+<p><code class="highlighter-rouge">o.name === o['name']</code></p>
+
+<p><code class="highlighter-rouge">delete o.name</code></p>
+
+<p>** for in 문 – 오브젝트나 배열 키 값을 돌리는 것</p>
+
+<p>Dom(Documet Object Model)이란</p>
+
+<p>문서를 Tree 구조로 정리해놓은 API(Application Programming Interface)</p>
+
+<p>브라우저 내장 API</p>
+
+<p><code class="highlighter-rouge">document.getElementById('root')</code></p>
+
+<p>window, document 이런건 자바스크립트 언어가 아님</p>
+
+<p>Node(컴퓨터의 기본 단위)에는 elements node, text node, attribute node … 등 여러가지가 있다. elements의 상위개념</p>
+
+<p>elements node - Tags, classes, ID(document에서만 사용) …</p>
+
+<p><code class="highlighter-rouge">document.getElementById('apple');</code></p>
+
+<p>유사배열이란 length와 index값 을 나타냄  = elements 들 tagnames, classes .. // 할당이 안됨 // for문 가능</p>
+
+<p>.textContent</p>
+
+<p>메소드 공부할때는 인자로 뭘 받는지, 리턴값은 뭔지 이해해야됨.</p>
+
+<p>querySelectorAll(‘div &gt; ul &gt; li:nth-child(1)’);</p>
+
+<p>setAttribute(‘id’, ‘hi’) // hi라는 아이디를 생성
+getAttribute(‘class’, ‘ha’) // ha라는 클래스를 생성</p>
+
+<p>!! b.classlist // class 개체 건드릴 때 사용</p>
+
+<p>!! b.dataset // !! &lt;- 중요</p>
+
+<p>b.style // css 수정</p>
+
+<p>b.innerHTML // 안의 HTML 추출</p>
+
+<p>var b = createElement(‘img’)  // 문서에 들어가지 않고 생성만 되어있음</p>
+
+<p>b.textContent = ‘dkdjd’</p>
+
+<p>b.src = ‘kdfjdk.com/dkdk.jpg’</p>
+
+<p>h1.appendChild(b);  // 마지막 자식으로 넣어준다.</p>
+
+<p>h1.removeChild(b);  // 자식을 지워준다.</p>
+
+<p>h1.replaceChild(b);  // 자식을 교체해준다.</p>
+
+<p><code class="highlighter-rouge">Date</code>// 날짜함수 다 외울려고 하면 안되고 그때그때 찾아 쓰자. 범위가 엄청 크다.</p>
+
+<p>setTimeout, setInterval // 특정 시간 뒤에 함수를 호출 또는 반복 호출</p>
+
+<p>//돔 과제 담주 월욜까지,</p>
+
+</article>
+
+
+
+
+
+<section class="rss">
+  <p class="rss-subscribe text"><strong>Subscribe <a href="/feed.xml">via RSS</a></strong></p>
+</section>
+
+<section class="share">
+  <span>Share: </span>
+  
+    
+    
+    
+      <a href="//www.facebook.com/sharer.php?t=180212+%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8+%EC%9D%BC%EA%B8%B0&u=http%3A%2F%2Fredant23.github.io%2Fjavascript%2F2018%2F02%2F13%2F%25E1%2584%258C%25E1%2585%25A1%25E1%2584%2587%25E1%2585%25A1%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25B8%25E1%2584%2590%25E1%2585%25B3-%25E1%2584%258B%25E1%2585%25B5%25E1%2586%25AF%25E1%2584%2580%25E1%2585%25B5.html"
+        onclick="window.open(this.href, 'facebook-share', 'width=550,height=255');return false;">
+        <i class="fa fa-facebook-square fa-lg"></i>
+      </a>
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+      <a href="//www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Fredant23.github.io%2Fjavascript%2F2018%2F02%2F13%2F%25E1%2584%258C%25E1%2585%25A1%25E1%2584%2587%25E1%2585%25A1%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25B8%25E1%2584%2590%25E1%2585%25B3-%25E1%2584%258B%25E1%2585%25B5%25E1%2586%25AF%25E1%2584%2580%25E1%2585%25B5.html"
+        onclick="window.open(this.href, 'linkedin-share', 'width=550,height=255');return false;">
+        <i class="fa fa-linkedin-square fa-lg"></i>
+      </a>
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+</section>
+
+
+
+
+</div>
+</div>
+
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h3 class="footer-heading">불개미의 자바스크립트 일기</h3>
+
+    <div class="site-navigation">
+
+      <p><strong>Site Map</strong></p>
+      <ul class="pages">
+        
+        
+          <li class="nav-link"><a href="/about/">About</a>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+          <li class="nav-link"><a href="/posts/">Posts</a>
+        
+        
+        
+          <li class="nav-link"><a href="/typography/">Typography</a>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      </ul>
+    </div>
+
+    <div class="site-contact">
+
+      <p><strong>Contact</strong></p>
+      <ul class="social-media-list">
+        <li>
+          <a href="mailto:kimdongjun23@gmail.com">
+            <i class="fa fa-envelope-o"></i>
+            <span class="username">kimdongjun23@gmail.com</span>
+          </a>
+        </li>
+
+        
+          
+          <li>
+            <a href="fb.com/redant23" title="Friend me on Facebook">
+              <i class="fa fa-facebook"></i>
+              <span class="username">Kim Dongjun</span>
+            </a>
+          </li>
+          
+        
+          
+          <li>
+            <a href="https://github.com/redant23" title="Fork me on GitHub">
+              <i class="fa fa-github"></i>
+              <span class="username">Kim Dongjun</span>
+            </a>
+          </li>
+          
+        
+          
+          <li>
+            <a href="https://www.linkedin.com/in/redant23" title="Connect with me on LinkedIn">
+              <i class="fa fa-linkedin"></i>
+              <span class="username">Kim Dongjun</span>
+            </a>
+          </li>
+          
+        
+          
+        
+          
+        
+
+      </ul>
+    </div>
+
+    <div class="site-signature">
+      <p class="rss-subscribe text"><strong>Subscribe <a href="/feed.xml">via RSS</a></strong></p>
+      <p class="text">A simple yet classy theme for your Jekyll website or blog.
+</p>
+    </div>
+
+  </div>
+
+</footer>
+
+<!-- Scripts -->
+<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.5/highlight.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+  // Default syntax highlighting
+  hljs.initHighlightingOnLoad();
+
+  // Header
+  var menuToggle = $('#js-mobile-menu').unbind();
+  $('#js-navigation-menu').removeClass("show");
+  menuToggle.on('click', function(e) {
+    e.preventDefault();
+    $('#js-navigation-menu').slideToggle(function(){
+      if($('#js-navigation-menu').is(':hidden')) {
+        $('#js-navigation-menu').removeAttr('style');
+      }
+    });
+  });
+});
+
+</script>
+
+
+
+
+
+
+  </body>
+
+</html>

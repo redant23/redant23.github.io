@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "180530 자바스크립트 일기"
+date:   2018-05-30 23:59:59
+author: redant
+categories: javascript
+---
+
+# 할 일 
+
+0. 문제풀이 // 오늘 없음, 할 게 많기 때문.
+
+
+1. 수업듣기  Firebase db 서버 구축하는법 + React 라이브러리 소개
+
+
+
+---
+
+
+---
+
+## 오늘 수업 
+

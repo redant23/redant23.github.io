@@ -1,0 +1,35 @@
+---
+layout: post
+title:  "180523 자바스크립트 일기"
+date:   2018-05-23 23:59:59
+author: redant
+categories: javascript
+---
+
+# 할 일 
+
+0. 문제풀이
+
+1. 수업듣기  react intro
+
+---
+
+오늘의 문제! eachLimit 구현하기. http://jsbin.com/musuterosi/edit?js,console
+풀이방향은 맞았으나 시간초과.(30분)
+
+
+
+---
+
+## 오늘 수업 react intro
+
+과제 설명
+
+reactjs.org 읽어보기
+
+뷰 단을 건드려주는 라이브러리
+
+가상돔을 만들어준다.
+
+
+

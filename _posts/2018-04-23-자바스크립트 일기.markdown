@@ -1,0 +1,52 @@
+---
+layout: post
+title:  "180423 자바스크립트 일기"
+date:   2018-04-23 23:59:59
+author: redant
+categories: javascript
+---
+
+# 할 일 
+
+0. 
+
+1. v6-router // 완료
+
+2. 수업듣기
+
+---
+
+오늘의 문제! UI도 알고리즘도 아닌 자바스크립트 문제. 못품...ㅠ
+http://jsbin.com/noditahono/2/edit?js,console
+
+
+
+---
+
+같은 실수를 반복하지 말자
+책읽듯이 쉽게 읽혀야 좋은 코드
+
+## 오늘 수업 - Asynchoronous Programming 1
+
+비동기 프로그래밍을 가능하게 해주는 요소들
+
+1. Event Loop
+2. Higher Order Function
+  
+  다른 함수를 인자로 받아 이용.
+
+  함수를 리턴해주는 형식.
+
+  이런 것이 가능한 이유는 함수란 First Class Object이기 때문.
+
+  Continuation Passing Style  A.k.a Callback Hell
+
+   함수안에 함수가 계속되는 스타일
+
+   이런 스타일을 피해줘야 함.
+
+3. 
+
+3. 
+
+
